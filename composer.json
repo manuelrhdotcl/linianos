@@ -1,0 +1,27 @@
+{
+    "name": "manuelrhdotcl/linianos",
+    "description": "Challenge - Backend Developer",
+    "type": "library",
+    "license": "GPLv3",
+    "authors": [
+        {
+            "name": "Manuel",
+            "email": "manuel@radiohead.cl"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "phpunit/phpunit": "8.5.2",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Linianos\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests"
+        }
+    }
+}
